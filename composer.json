@@ -1,0 +1,22 @@
+{
+    "name"             : "amopi/logging",
+    "minimum-stability": "stable",
+    "license"          : "MIT",
+    "require"          : {
+        "monolog/monolog"                      : "^1.17",
+        "bramus/monolog-colored-line-formatter": "^2.0",
+        "amopi/utils"                          : "^1.6"
+    },
+    "suggest"          : {
+        "symfony/console"   : "^3.0",
+        "amopi/aws-wrappers": "^2.7"
+    },
+    "autoload"         : {
+        "psr-4": {
+            "Amopi\\Mlib\\Logging\\": "src/"
+        },
+        "files": [
+            "src/MLogging.inc.php"
+        ]
+    }
+}
